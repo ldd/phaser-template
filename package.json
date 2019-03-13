@@ -1,0 +1,40 @@
+{
+  "name": "phaser-template",
+  "version": "2.0.0",
+  "description": "My bootstrap project for creating games with Phaser + ES6 + Webpack.",
+  "author": "ldd <leonardoldd@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "lint": "eslint src --ext .js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "expose-loader": "^0.7.3",
+    "prettier": "^1.16.4",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "debounce": "^1.2.0",
+    "phaser": "^3.0.0-beta.4",
+    "webfontloader": "^1.6.28"
+  }
+}
